@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Face App - Enhance your photos effortlessly with AI facial features."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Face App</title>
+
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f6f9;
+      }
+
+      .main-section {
+        text-align: center;
+        padding: 50px 20px;
+        background: linear-gradient(135deg, #e095ed, #a095ed, #edb795);
+        color: white;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        animation: fadeInDown 1s ease;
+      }
+
+      p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 0 auto 30px;
+        line-height: 1.6;
+        color: #fff;
+        animation: fadeInUp 1s ease;
+      }
+
+      .btn-primary {
+        background-color: #ffdd57;
+        border: none;
+        padding: 12px 25px;
+        font-size: 1.2rem;
+        border-radius: 30px;
+        color: #333;
+        transition: all 0.3s ease;
+        text-decoration: none;
+      }
+
+      .btn-primary:hover {
+        background-color: #ffca2c;
+        color: #000;
+      }
+
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      footer a {
+        color: #ffdd57;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .btn-primary:focus {
+        outline: none;
+        box-shadow: 0 0 0 4px rgba(255, 221, 87, 0.5);
+      }
+
+      /* Media Queries */
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main Section -->
+    <section class="main-section">
+      <div class="container">
+        <h1>Welcome to Face App</h1>
+        <p>
+          Enhance your photos effortlessly with cutting-edge facial landmark recognition and AI-powered features. Experience real-time image editing like never before.
+        </p>
+        <a href="#" class="btn-primary">Get Started</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>Developed by <a href="https://pahinithi.github.io/nithi99">Nithilan</a></p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
