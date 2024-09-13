@@ -1,4 +1,4 @@
-# Facial Landmark Recognition with Tensorflow.JS and React
+# Facial Landmark Recognition with Tensorflow.JS and React Computer Vision
 
 Facial Landmark Recognition is a web-based application that detects key facial landmarks in real-time or on uploaded images using TensorFlow.JS and React. The application identifies key facial features like eyes, nose, and mouth to help with various tasks like facial analysis, gesture recognition, and emotion detection.
 
