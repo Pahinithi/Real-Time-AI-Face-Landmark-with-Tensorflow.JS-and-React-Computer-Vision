@@ -57,7 +57,7 @@ To get started with the project, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/facial-landmark-recognition.git
+   git clone https://github.com/Pahinithi/Real-Time-AI-Face-Landmark-with-Tensorflow.JS-and-React-Computer-Vision
    cd facial-landmark-recognition
    ```
 
